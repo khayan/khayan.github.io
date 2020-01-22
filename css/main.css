@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+
+body {
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    color: #ddd;
+    background: linear-gradient(to right, #43c6ac, #191654);
+}
+
+h1 {
+    font-size: 5em;
+    margin-top: 25vh;
+}
+
+h2 {
+    font-size: 3em;
+    /* font-weight: bold; */
+    /* opacity: .8; */
+}
+
+main {
+    height: 50%;
+    width: 50%;
+    margin: 3% auto;
+}
+
+ul {
+    margin-bottom: 2em;
+}
+
+ul li {
+    display: inline;
+}
+
+.email {
+    font-size: 2em;
+    text-decoration: none;
+    opacity: .3;
+    color: #ddd;
+    transition-duration: .3s;
+}
+
+.email:hover {
+    color: #ddd;
+    opacity: 1;
+    transition-duration: .3s;
+}
+
+
+.contato-info .fa {
+    margin: 10px 4px;
+    padding: 20px;
+    width: 50px;
+    height: auto;
+    font-size: 50px !important;
+    text-align: center;
+    text-decoration: none;
+    background-color: #fff;
+    color: #444;
+    border-radius: 100%;
+    transition-duration: .3s;
+}
+
+.contato-info .fa:hover {
+    transition-duration: .3s;
+    color: #fff;
+}
+
+.contato-info .fa-linkedin:hover {
+    background-color: #2867B2;
+}
+
+.contato-info .fa-github:hover {
+    background-color: #14171A;
+}
+
+.contato-info .fa-twitter:hover {
+    background-color: #1DA1F2;
+}
+
+.contato-info .fa-whatsapp:hover {
+    background-color: #4AC959;
+}
+
+.contato-info .fa-instagram:hover {
+    background-color: #E1306C;
+}
+
+.contato-info .fa-facebook:hover {
+    background-color: #4267B2;
+}
